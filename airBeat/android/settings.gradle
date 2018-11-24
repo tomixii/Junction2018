@@ -1,3 +1,5 @@
 rootProject.name = 'airBeat'
+include ':react-native-mds'
+project(':react-native-mds').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mds/android')
 
 include ':app'
